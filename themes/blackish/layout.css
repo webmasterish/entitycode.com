@@ -1,0 +1,205 @@
+@media screen, projection
+{
+
+/* ------------ Header -------------*/
+    #header {
+        min-width:              950px;
+        margin:                 0; 
+        padding:                0; 
+         
+        background:             #fff;
+    }
+    
+    #logo {
+        padding:                10px 0 0 0;
+   }
+    #logo h1 {
+        margin:                 0; 
+        padding:                0;
+   }
+    #logo h1 a  {
+        color:                  #000;
+        font-size:              36px;
+        margin:                 0; 
+        padding:                0;
+        text-decoration:        none;
+        font-weight:            bold;
+   }
+    
+    #slogan {
+        min-width:              950px;
+        margin:                 0; 
+        padding:                0; 
+         
+        background:             #000;
+    }
+    #slogan h2 {
+        color:                  #fff;
+        font-size:              20px;
+        margin:                 0; 
+        padding:                5px 0;
+    }
+    
+/* ------------ Header -------------*/
+
+
+/* ------------ Main -------------*/
+    #main {
+        min-width:              950px;
+        margin:                 0; 
+        padding:                0; 
+         
+        background:             #94D7E7;
+    }
+    
+    #mainbar {
+        float:                  left; 
+        width:                  73%; 
+        background:             #94D7E7;
+        padding:                0; 
+    }
+        
+    #sidebar {
+        background:             #00A0C6;
+        width:                  auto;
+        margin:                 0 0 0 75%; 
+        /*
+        border-left:            4px #e7e7e7 solid  
+        */
+    }
+    .col_content_sidebar {
+        padding:                10px; 
+    }
+    .col_content_sidebar h3 {
+        font-size:              16px; 
+        font-weight:            bold;
+        border-bottom:          solid 1px #fff;
+        color:                  #fff;
+    }
+    .sidebar_module {
+        margin:                 10px 0 20px 0; 
+    }
+    
+    .sidebar_module p {
+        color:                  #fff;
+    }
+    .sidebar_module a {
+        color:                  #fff;
+        text-decoration:        underline;
+    }
+    .sidebar_module a:hover {
+        color:                  #fff;
+        text-decoration:        none;
+    }
+/* ------------ Main ------------- */    
+
+/* ------------ Footer ----------- */    
+    #footer {
+        position:               relative;
+        min-width:              950px;
+        margin:                 20px 0 0 0; 
+        padding:                0 0 0 0;
+       
+        background:             #fff;
+        
+        font-size:              0.9em;
+        text-align:             center; 
+        text-transform:         capitalize;
+    }
+    .content_footer {
+        padding:                10px 0 10px 0; 
+        background:             #000;
+        color:                  #fff;
+    }
+    
+    #footer .back-to-top a{
+        top:                    0;
+        left:                   10px;
+        position:               absolute;
+        padding:                10px 0; 
+        font-size:              0.9em;
+        color:                  #fff;
+        text-decoration:        none;
+   }
+    #footer .back-to-top a:hover {
+        color:                  #fff;
+        text-decoration:        underline;
+    }
+    #w_copyright {
+        margin:                 0 0 10px 0; 
+    }
+    #w_copyright a {
+        background:             transparent url(images/webmasterish_logo.png) no-repeat scroll left center;
+        display:                block;
+        height:                 16px;
+        text-indent:            -9999px;
+        width:                  100px;
+	    margin:                 5px auto 0 auto;
+    }
+    #footer_valid {
+        top:                    0;
+        right:                  0;
+        position:               absolute;
+        padding:                10px 0; 
+    }
+
+
+/* ------------ Classes ---------- */    
+    .wrapper {
+	    width:                  950px;
+	    margin:                 0 auto;
+        clear:                  both;
+        position:               relative; 
+    }
+    .col_content {
+        padding:                10px; 
+    }
+    .float_left {
+        float:                  left; 
+        display:                inline;
+        margin-right:           1em; 
+        margin-bottom:          0.15em; 
+    }
+    .float_right {
+        float:                  right; 
+        display:                inline; 
+        margin-left:            1em; 
+        margin-bottom:          0.15em; 
+    }
+    .center {
+        margin:                 0 auto; 
+        
+        text-align:             center; 
+    }
+/* ------------ Classes ---------- */    
+
+
+/* ------------ Clearing ----------- */ 
+    /* clearfix method for clearing floats */
+    .clearfix:after {
+        display:            block; 
+        height:             0; 
+        clear:              both; 
+        visibility:         hidden;
+         
+        content:            "."; 
+    }
+
+    /* essential for Safari browser !! */
+    .clearfix {
+        display:            block; 
+    }
+
+    /* (en) overflow method for clearing floats */
+    .floatbox {
+        overflow:           hidden; 
+    }
+
+    /* IE-Clearing: Only used in Internet Explorer, switched on in iehacks.css */
+    #ie_clearing{
+        display:            none; 
+    }
+/* ------------ Clearing ----------- */ 
+
+
+}

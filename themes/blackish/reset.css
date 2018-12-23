@@ -1,0 +1,49 @@
+@media all
+{
+	
+    /* Global reset of paddings and margins for all HTML elements */
+    * {
+        margin:             0; 
+        padding:            0; 
+        border:             0;
+        outline:            0;
+        
+        font-family:        inherit;
+        font-size:          100.01%; /* Fix for rounding errors when scaling font sizes in older versions of Opera browser */
+        font-style:         inherit;
+        font-weight:        inherit;
+        /* vertical-align:  baseline; */
+    }
+
+    /* Forcing vertical scrollbars in Netscape, Firefox and Safari browsers */
+    html {
+        height:             100%; 
+        margin-bottom:      1px; 
+    }
+    
+    :focus {
+	    outline:            0;
+    }
+    
+    body {
+	    background:         #ffffff;
+	    color:              #000000;
+	    /* line-height:     1; */
+    }
+    
+    ol, ul {
+	    list-style:         none;
+    }
+    
+    /* Tables still need 'cellspacing="0"' in the markup */
+    table {
+	    border-collapse:    separate;
+	    border-spacing:     0;
+    }
+    
+    caption, th, td {
+	    font-weight:        normal;
+	    /* text-align:      left; */
+    }
+    
+}

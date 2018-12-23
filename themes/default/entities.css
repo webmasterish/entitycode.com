@@ -1,0 +1,62 @@
+﻿#entities-container {
+    margin:                 0;
+    padding:                0 0 10px 0;
+}
+
+.entity_chart {
+    border:                 solid 2px #464646;
+    margin:                 0; 
+    font-size:              14px;
+    width:                  100%;
+}
+
+.entity_chart th {
+    border-right:           1px silver solid; 
+    border-bottom:          1px #464646 solid;
+    padding:                10px;
+    font-weight:            bold;
+    text-transform:         capitalize; 
+}
+.entity_chart td {
+    border-right:           1px silver solid; 
+    border-bottom:          1px silver solid;  
+    background-color:       white;
+    padding:                10px;
+}
+
+.entity_symbol {
+    font-size:              2.5em; 
+    text-align:             center; 
+    color:                  #3C839F; 
+    font-family:            "Century Schoolbook",Palatino,Georgia,serif 
+}
+.entity_name {
+    text-align:             center; 
+    color:                  #3C839F; 
+    font-weight:            bold;
+}
+.entity_number {
+    text-align:             center; 
+    color:                  #3C839F; 
+    font-weight:            bold;
+}
+.entity_description {
+    text-align:             left; 
+    color:                  #666; 
+    text-transform:         capitalize; 
+}
+.entity_description_featured {
+    text-align:             left; 
+    color:                  #000; 
+    text-transform:         capitalize; 
+}
+
+#about-content p
+{
+    font-size:              14px;
+}
+#about-content ul
+{
+    font-size:              14px;
+    list-style-type:        disc;
+}

@@ -1,0 +1,69 @@
+#entities-container {
+    margin:                 0;
+    padding:                0;
+    background-color:       #94D7E7;
+}
+
+.entity_chart {
+    margin:                 0; 
+    font-size:              14px;
+    width:                  100%;
+}
+
+.entity_chart th {
+    border-left:            solid 1px #C3E2E1; 
+    border-bottom:          solid 2px #94D7E7;  
+    padding:                10px;
+    font-weight:            bold;
+    text-transform:         capitalize; 
+    color:                  #004D60;
+    background-color:       #D9FBFF;
+}
+.entity_chart td {
+    border-left:            solid 1px #C3E2E1; 
+    border-bottom:          solid 2px #94D7E7;  
+    background-color:       #eee;
+    padding:                10px;
+}
+
+.entity_symbol {
+    font-size:              2.5em; 
+    text-align:             center; 
+    color:                  #000; 
+    font-family:            "Century Schoolbook",Palatino,Georgia,serif 
+}
+.entity_name {
+    text-align:             center; 
+    color:                  #000; 
+    font-weight:            bold;
+}
+.entity_number {
+    text-align:             center; 
+    color:                  #000; 
+    font-weight:            bold;
+}
+.entity_description {
+    text-align:             left; 
+    color:                  #666; 
+    text-transform:         capitalize; 
+}
+.entity_description_featured {
+    text-align:             left; 
+    color:                  #3F3F3F; 
+    text-transform:         capitalize; 
+}
+
+#about-content
+{
+    padding:                10px;
+    background-color:       #ffffff;
+}
+#about-content p
+{
+    font-size:              14px;
+}
+#about-content ul
+{
+    font-size:              14px;
+    list-style-type:        disc;
+}
