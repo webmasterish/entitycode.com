@@ -43,3 +43,14 @@ Thumbs.db
 
 # ignore any file or folder that starts with double underscore
 __*
+
+# ------------------------------------------------------------------------------
+# Packages such as Zip files
+# ------------------------------------------------------------------------------
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
