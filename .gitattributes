@@ -1,0 +1,78 @@
+# ##############################################################################
+# GENERIC GITATTRIBUTES
+# ##############################################################################
+
+
+# ------------------------------------------------------------------------------
+# Autodetect text files
+# ------------------------------------------------------------------------------
+
+* text=auto
+
+
+# ------------------------------------------------------------------------------
+# Treat the following as text files
+# ------------------------------------------------------------------------------
+
+# usually, hidden files are text files, e.g. `.gitattributes`
+.* text eol=lf
+
+*.txt text eol=lf
+
+*.md text eol=lf
+*.markdown text eol=lf
+
+*.htm text eol=lf
+*.html text eol=lf
+*.xhtml text eol=lf
+*.xml text eol=lf
+*.svg text eol=lf
+
+*.css text eol=lf
+*.less text eol=lf
+*.scss text eol=lf
+*.sass text eol=lf
+
+*.js text eol=lf
+*.json text eol=lf
+
+*.sh text eolf=lf
+*.php text eol=lf
+*.sql text eol=lf
+*.yml text eol=lf
+
+
+# ------------------------------------------------------------------------------
+# Graphics
+# ------------------------------------------------------------------------------
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tif binary
+*.tiff binary
+*.ico binary
+*.eps binary
+*.webp binary
+
+
+# ------------------------------------------------------------------------------
+# Fonts
+# ------------------------------------------------------------------------------
+
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+
+
+# ------------------------------------------------------------------------------
+# Media
+# ------------------------------------------------------------------------------
+
+*.mp3  binary
+*.m4a  binary
+*.mp4  binary
+*.m4p  binary
+*.webm binary
